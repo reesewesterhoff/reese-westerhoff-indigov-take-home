@@ -2,7 +2,7 @@
 A simple example of a back end for a constituent management application
 
 ### To Run:
-1. Git clone the project to your local environment
+1. Git clone the project to your local environment ```git clone https://github.com/reesewesterhoff/reese-westerhoff-indigov-take-home.git```
 2. Spin up a local mongodb with Docker using the command ```docker run --name mongodb -p 27017:27017 -d mongo```
 3. Open the cloned project from the command line and ```cd``` into _/reese-westerhoff-indigov-take-home/backend/services/constituent-service_ and run ```npm install```
 4. Run ```npm run dev``` to start the server
